@@ -1,7 +1,7 @@
 body {
-    font-family: "Arial", "Meirio", sans-serif;
+    font-family: "Arial", "Meiryo", sans-serif;
 }
-head, body {
+html {
     font-size: 20px;
     text-align: center;
 }
@@ -12,7 +12,7 @@ head, body {
     color: rgb(255, 192, 203);
 }
 h1 {
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -21,6 +21,6 @@ h1 {
     text-shadow: 1px 1px 1px yellow;
     border-bottom: solid 3px rgb(115, 115, 114);
 }
-.bold {
+#basic > `p` { 
     font-weight: bold;
-}
+ }
