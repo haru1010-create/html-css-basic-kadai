@@ -57,12 +57,14 @@ footer {
 
 a {
     color: rgb(255, 255, 255);
-    :visited {
-        color: rgb(193, 234, 251);
-    }
-    :hover {
-        color: rgb(245, 178, 168);
-    }
+}
+
+a:visited {
+    color: rgb(193, 234, 251);
+}
+
+a:hover {
+    color: rgb(245, 178, 168);
 }
 
 @media screen and (max-width: 768px) {
@@ -73,7 +75,7 @@ a {
         font-size: 25px;
     }
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
 
